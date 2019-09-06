@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500|Space+Mono:700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #152347;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navbar{
+    width: 100%;
+    height: 8rem;
+}
+
+#iotalogo{
+    float: left;
+    width: 12.8rem;
+    height: 8rem;
+    margin-left: 3rem;
+}
+
+#iotalogo img{
+    width: 100%;
+    height: 100%;
+}
+
+#navigation{
+    float: right;
+    height: 8rem;
+    width: 60rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-weight: bold;
+    font-family: "Space Mono", monospace;
+}
+
+#navigation ul{
+    list-style: none;
+    margin: 0;
+    padding: 4rem 3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40rem;
+    box-sizing: border-box;
+}
+
+#navigation ul li{
+    padding: 0;
+    margin: 0;
+    display: inline;
+    font-size: 1.4rem;
+}
+
+#navigation ul li a{
+    color: #fff;
+}
+
+#navigation ul li a:active{
+    color: #1595ff;
+}
+
+#reg-button{
+    display: inline-block;
+    width: 8rem;
+    height: 3rem;
+    padding: 2.5rem 6rem;
+}
+
+#reg-button button{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0.5rem;
+    outline: none;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    background: #a11ec6;
+    cursor: pointer;
+}
+
+#reg-button button:hover{
+    color: #152347;
+    background: #92eaff;
+}
+
+#banner{
+    width: 100%;
+    height: 35vw;
+    background: url("../img/bg-left.png") left top no-repeat, url("../img/bg-right.png") right bottom no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo{
+    width: 55%;
+    height: 100%;
+}
+
+#logo img{
+    box-sizing: border-box;
+    width: 90%;
+    padding: 0 10%;
+}
+
+#data{
+    height: 100%;
+    width: 40%;
+}
+
+#data p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+#city{
+    position: relative;
+    top: 3rem;
+    font-size: 6rem;
+    color: #ff00aa;
+    text-shadow: 0.2rem -0.2rem 0.05rem #ea02a1,
+                 -0.2rem -0.2rem 0.05em #ea02a1;
+}
+
+#time{
+    position: relative;
+    top: 5rem;
+    font-size: 3.5rem;
+    color: #fdf922;
+}
+
+#name{
+    position: relative;
+    top: 7rem;
+    font-size: 2rem;
+    color: #fafafa;
+    text-shadow: 1px -1px 2px #fff,
+                 -1px -1px 2px #fff;
+}
