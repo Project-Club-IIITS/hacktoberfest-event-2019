@@ -3,6 +3,7 @@
 <head>
     <title>HacktoberFest Event 2019 - IIITS</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/repo.css">
 </head>
 
 <body>
@@ -33,7 +34,8 @@
                 5<sup>th</sup> October 6 PM
             </p>
             <p id="name">
-                Hack the night..
+                A evening long event for
+                introducing students to open source.
             </p>
         </div>
     </div>
@@ -53,14 +55,14 @@
         </p>
     </div>
     <div id="agenda">
-        <div id="agenda-heading">Timeline</div>
+        <div class="heading">What are we doing?</div>
         <div id="graph"></div>
         <div class="right" id="info">
             <strong>5 October 6PM<br>Introduction to Git and Github.</strong>
             <br>
             Git is a very powerful and most widely used version control system. You cannot undermine its
             significance in large projects. It is an indispensable tool for a programmer to learn.
-            GitHub is a site where you can host your Git repos. It comes power-packed with other
+            GitHub is a website where you can host your Git repos. It comes power-packed with other
             benifits as well.
         </div>
         <div class="left" id="info">
@@ -80,6 +82,26 @@
             Welcome to the world of OPEN SOURCE!
         </div>
     </div>
+    <div id="projects">
+        <div class="heading">Good First Repos</div>
+        <p>
+            These are some of the open source projects that you can contribute to.
+            This projects are good for first-timers. Also you can search for 'good first issues'
+            in some other public repos. These issues would be easy to solve.
+        </p>
+        <div id="repo-container"></div>
+    </div>
+    <div id="footer">
+        <img src="img/footer.png">
+        <div id="footer-text">
+            Site made by IOTA
+            <br>
+            Inidan Institute of Information Technology
+            <br>
+            Sri City
+        </div>
+    </div>
+    <script src="js/getrepo.js"></script>
 </body>
 
 </html>

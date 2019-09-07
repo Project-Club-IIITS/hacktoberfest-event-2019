@@ -278,7 +278,7 @@ a{
     left: -0.6em;
 }
 
-#agenda-heading{
+.heading{
     font-size: 2.2em;
     font-weight: lighter;
     font-family: "Montserrat", sans-serif;
@@ -289,7 +289,7 @@ a{
     position: relative;
 }
 
-#agenda-heading::before{
+.heading::before{
     content: "";
     height: 0.1em;
     width: 0.8em;
@@ -299,7 +299,7 @@ a{
     background: #fdf922;
 }
 
-#agenda-heading::after{
+.heading::after{
     content: "";
     height: 0.4em;
     width: 0.1em;
@@ -307,4 +307,43 @@ a{
     bottom: 0;
     left: 1em;
     background: #fdf922;
+}
+
+#projects{
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#projects p{
+    font-family: "Space Mono", monospace;
+    color: #fff;
+    margin: 0;
+    text-align: justify;
+    padding: 2em 20%;
+    font-size: 1.5rem;
+}
+
+#footer{
+    position: relative;
+    top: 1em;
+    font-size: 1.1rem;
+    height: 5em;
+    margin: 0;
+    margin-top: 4em;
+    width: 100%;
+    background: #1f2d4f;
+}
+
+#footer img{
+    height: 5em;
+    width: 15em;
+    float: left;
+    margin-left: 1em;
+}
+
+#footer div{
+    text-align: right;
+    float: right;
+    margin: 1em 2em;
+    color: #fff;
 }

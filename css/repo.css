@@ -1,0 +1,118 @@
+#repo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#repo-container .repomain{
+    position: relative;
+    background: #1f2d4f;
+    width: 30em;
+    font-size: 1rem;
+    padding: 1.5em;
+    box-sizing: border-box;
+}
+
+#repo-container .repomain img{
+    position: absolute;
+    top: 1.5em;
+    left: 1.5em;
+    width: 8em;
+    height: 8em;
+}
+
+#repo-container .repomain .repo{
+    position: relative;
+    left: 3.6em;
+    width: 8.4em;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    height: 1.1em;
+    overflow: hidden;
+}
+
+#repo-container .repomain .owner{
+    position: relative;
+    left: 6em;
+    width: 14em;
+    font-weight: lighter;
+    font-size: 1.5em;
+    font-family: "Montserrat", sans-serif;
+    height: 1.1em;
+    overflow: hidden;
+}
+
+#repo-container .repomain .repo a{
+    color: #fff;
+}
+
+#repo-container .repomain .owner a{
+    color: #fdf922;
+}
+
+#repo-container .repomain .repodata{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2em;
+    position: relative;
+    left: 7.5em;
+    width: 16em;
+    margin: 0;
+    margin-top: 1.3em;
+}
+
+#repo-container .repomain .icon{
+    box-sizing: border-box;
+    width: 5em;
+    padding-left: 1.4em;
+    position: relative;
+    color: #1595ff;
+}
+
+#repo-container .repomain .stars::before{
+    position: absolute;
+    width: 1.05em;
+    height: 1.2em;
+    top: 0;
+    left: 0;
+    background: url("../img/star.svg");
+    background-size: cover;
+    content: "";
+}
+
+#repo-container .repomain .lang::before{
+    position: absolute;
+    width: 1.05em;
+    height: 1.2em;
+    top: 0;
+    left: 0;
+    background: url("../img/code.svg");
+    background-size: cover;
+    content: "";
+}
+
+#repo-container .repomain .forks::before{
+    position: absolute;
+    width: 0.77em;
+    height: 1.2em;
+    top: 0;
+    left: 0;
+    background: url("../img/fork.svg");
+    background-size: cover;
+    content: "";
+}
+
+#repo-container .repomain p{
+    margin: 0;
+    margin-top: 1.2em;
+    padding: 0;
+    font-family: "Space Mono", monospace;
+    color: #ff00aa;
+    overflow: hidden;
+    text-align: center;
+}
