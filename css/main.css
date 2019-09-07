@@ -172,7 +172,7 @@ a{
     background-color: #152347;
     background-image: url("../img/hacking.png");
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.9;
     border-radius: 1.5rem;
 }
 
@@ -210,4 +210,101 @@ a{
     font-size: 0.3em;
     color: #fff;
     font-family: "Space Mono", monospace;
+}
+
+#agenda{
+    font-size: 1.5rem;
+    position: relative;
+    background: url("../img/back-left.png") left top no-repeat, url("../img/back-right.png") right bottom no-repeat;
+}
+
+#agenda #graph{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    font-size: 0.5vw;
+    width: 1em;
+    margin: 0 auto;
+    background: #fdf922;
+    height: 100%;
+    border-radius: 1em;
+}
+
+#agenda #info{
+    position: relative;
+    padding: 1em;
+    box-sizing: border-box;
+    width: 35%;
+    color: #fff;
+    font-size: 0.8em;
+    border-radius: 1em;
+    font-family: "Space Mono", monospace;
+}
+
+#agenda #info strong{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+#agenda #info.right{
+    background: linear-gradient(to right,#fe7f5d,#ff4284);
+    border-top-left-radius: 0;
+    left: 52%;
+}
+
+#agenda #info.left{
+    background: linear-gradient(to left,#fe7f5d,#ff4284);
+    border-top-right-radius: 0;
+    left: 13%;
+}
+
+#agenda #info::before{
+    content: "";
+    position: absolute;
+    width: 1.2em;
+    height: 1.2em;
+    top: 0.278em;
+    background: #fe7f5d;
+    transform: rotate(45deg);
+}
+
+#agenda div.left::before{
+    right: -0.6em;
+}
+
+#agenda div.right::before{
+    left: -0.6em;
+}
+
+#agenda-heading{
+    font-size: 2.2em;
+    font-weight: lighter;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+    padding-left: 1em;
+    padding-bottom: 0.1em;
+    position: relative;
+}
+
+#agenda-heading::before{
+    content: "";
+    height: 0.1em;
+    width: 0.8em;
+    position: absolute;
+    bottom: 0;
+    left: 1em;
+    background: #fdf922;
+}
+
+#agenda-heading::after{
+    content: "";
+    height: 0.4em;
+    width: 0.1em;
+    position: absolute;
+    bottom: 0;
+    left: 1em;
+    background: #fdf922;
 }
