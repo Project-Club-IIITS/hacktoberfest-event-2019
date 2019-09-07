@@ -45,8 +45,8 @@ function getRepo(repo) {
         own.appendChild(owner_link);
 
         let des = document.createElement("p");
-        if (desc != null && desc.length > 65) {
-            desc = desc.slice(0, 64) + "...";
+        if (desc != null && desc.length > 80) {
+            desc = desc.slice(0, 79) + "...";
         }
         des.innerHTML = desc;
 
@@ -70,7 +70,7 @@ function getRepo(repo) {
     })
 }
 
-var repos_list = ["TheAlgorithms/C", "trekhleb/javascript-algorithms", "Project-Club-IIITS/club_portal", "adwait-thattey/Techfesia2019"];
+var repos_list = ["TheAlgorithms/C", "trekhleb/javascript-algorithms", "firstcontributions/first-contributions", "Project-Club-IIITS/club_portal", "adwait-thattey/Techfesia2019"];
 
 for (i = 0; i < repos_list.length; i++) {
     getRepo(repos_list[i]);

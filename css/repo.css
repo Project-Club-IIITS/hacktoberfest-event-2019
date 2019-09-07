@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 95%;
     margin: 0 auto;
 }
@@ -9,10 +10,11 @@
 #repo-container .repomain{
     position: relative;
     background: #1f2d4f;
-    width: 30em;
+    width: 35em;
     font-size: 1rem;
     padding: 1.5em;
     box-sizing: border-box;
+    margin: 1em 0;
 }
 
 #repo-container .repomain img{
@@ -26,23 +28,25 @@
 #repo-container .repomain .repo{
     position: relative;
     left: 3.6em;
-    width: 8.4em;
+    width: 9.6em;
     font-size: 2.5em;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     height: 1.1em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     overflow: hidden;
+    color: #fff;
 }
 
 #repo-container .repomain .owner{
     position: relative;
     left: 6em;
-    width: 14em;
+    width: 16em;
     font-weight: lighter;
     font-size: 1.5em;
     font-family: "Montserrat", sans-serif;
     height: 1.1em;
-    overflow: hidden;
 }
 
 #repo-container .repomain .repo a{
@@ -61,14 +65,14 @@
     font-size: 1.2em;
     position: relative;
     left: 7.5em;
-    width: 16em;
+    width: 20em;
     margin: 0;
     margin-top: 1.3em;
 }
 
 #repo-container .repomain .icon{
     box-sizing: border-box;
-    width: 5em;
+    width: 6.19em;
     padding-left: 1.4em;
     position: relative;
     color: #1595ff;
