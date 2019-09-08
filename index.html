@@ -1,18 +1,34 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="utf-8" />
+    <meta name="Description"
+        content="HacktoberFest event 2019 to be organised at IIIT Sri City. An evening long event to introduce students to open source." />
+    <meta name="og:type" content="Website" />
+    <meta name="og:site_name" content="HacktoberFest Event 2019 - IIITS" />
+    <meta name="og:description"
+        content="HacktoberFest event 2019 to be organised at IIIT Sri City. An evening long event to introduce students to open source." />
+    <meta name="theme-color" content="#2b1f50" />
+
     <title>HacktoberFest Event 2019 - IIITS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5, minimum-scale=1" />
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preload" as="style" href="css/main.css">
+    <link rel="preconnect" href="https://api.github.com">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500|Space+Mono:700&display=swap">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/repo.css">
 </head>
 
 <body>
     <div id="navbar">
         <div id="iotalogo">
-            <img src="img/iota.png">
+            <img src="img/iota.png" alt="IOTA">
         </div>
         <div id="reg-button">
-            <a href="#form"><button>Register</button></a>
+            <a href="https://forms.gle/ood9XUdHkZF5gNgaA" target="_blank" rel="noopener noreferrer"><button
+                    title="Fill in the Form">Register</button></a>
         </div>
         <div id="navigation">
             <ul>
@@ -24,7 +40,7 @@
     </div>
     <div id="banner">
         <div id="logo">
-            <img src="img/logo.png">
+            <img src="img/logo.png" alt="HacktoberFest">
         </div>
         <div id="data">
             <p id="city">
@@ -34,7 +50,7 @@
                 5<sup>th</sup> October 6 PM
             </p>
             <p id="name">
-                A evening long event for
+                An evening long event for
                 introducing students to open source.
             </p>
         </div>
@@ -61,24 +77,30 @@
             <div class="right info">
                 <strong>5 October 6PM<br>Introduction to Git and Github</strong>
                 <br>
-                Git is a very powerful and most widely used version control system. You cannot undermine its
-                significance in large projects. It is an indispensable tool for a programmer to learn.
-                GitHub is a website where you can host your Git repos. It comes power-packed with other
-                benifits as well.
+                <p>
+                    Git is a very powerful and most widely used version control system. You cannot undermine its
+                    significance in large projects. It is an indispensable tool for a programmer to learn.
+                    GitHub is a website where you can host your Git repos. It comes power-packed with other
+                    benifits as well.
+                </p>
             </div>
             <div class="left info">
                 <strong>10 October 6PM<br>First Open Source Contributions</strong>
                 <br>
-                Open source is a revolution. A lot of production grade softwares and
-                libraries are openly available in the internet for anyone to read and
-                contribute to. Its your chance to make your first pull request in these projects.
+                <p>
+                    Open source is a revolution. A lot of production grade softwares and
+                    libraries are openly available in the internet for anyone to read and
+                    contribute to. Its your chance to make your first pull request in these projects.
+                </p>
             </div>
             <div class="right info">
                 <strong>Till 31 October<br>Get Ready for Swags</strong>
                 <br>
-                Grab some coffee and start making pull request to your favorite repos.
-                Complete 4 PRs and become eligible for a limited edition T-Shirt and
-                some cool stickers.
+                <p>
+                    Grab some coffee and start making pull request to your favorite repos.
+                    Complete 4 PRs and become eligible for a limited edition T-Shirt and
+                    some cool stickers.
+                </p>p>
                 <br>
                 Welcome to the world of OPEN SOURCE!
             </div>
@@ -94,7 +116,7 @@
         <div id="repo-container"></div>
     </div>
     <div id="footer">
-        <img src="img/footer.png">
+        <img src="img/footer.png" alt="HacktoberFest">
         <div id="footer-text">
             Site made by IOTA
             <br>

@@ -8,6 +8,8 @@ body{
     margin: 0;
     padding: 0;
     background: #152347;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 div{
@@ -252,9 +254,15 @@ p#name{
 }
 
 #agenda .info strong{
-    font-size: 1.2em;
+    font-size: 1.25em;
     text-transform: uppercase;
     color: #000;
+}
+
+#agenda .info p{
+    font-size: 1.07em;
+    margin: 0;
+    padding: 0;
 }
 
 #agenda .info.right{
@@ -357,3 +365,9 @@ p#name{
     color: #fff;
     box-sizing: border-box;
 }
+
+@import url("media1.css") (max-width: 1199px) and (min-width: 992px);
+@import url("media2.css") (max-width: 991px) and (min-width: 768px);
+@import url("media3.css") (max-width: 767px) and (min-width: 600px);
+@import url("media4.css") (min-width: 401px) and (max-width: 599px);
+@import url("media5.css") (max-width: 400px);

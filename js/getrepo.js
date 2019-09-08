@@ -26,6 +26,7 @@ function getRepo(repo) {
 
         let img = document.createElement("img");
         img.setAttribute("src", image);
+        img.setAttribute("alt", owner);
 
         let repo_link = document.createElement("a");
         repo_link.setAttribute("href", repo_url);
