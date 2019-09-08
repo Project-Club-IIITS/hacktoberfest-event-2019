@@ -165,13 +165,13 @@ p#name{
     justify-content: space-evenly;
     flex-wrap: wrap;
     font-size: 4vw;
-    margin: 0.5em 0;
+    margin: 0.9em 0;
 }
 
 #hacking{
     position: relative;
     width: 40%;
-    height: 6em;
+    height: 6.3em;
     margin: 0;
     background-blend-mode: overlay;
     background-color: #152347;
@@ -194,8 +194,9 @@ p#name{
 
 #about-heading{
     position: absolute;
-    top: 1em;
-    left: 1em;
+    top: 0;
+    margin: 0.4em 1em;
+    left: 0;
     border-left: solid 0.1em #fdf922;
     padding: 0;
     color: #fff;
@@ -206,7 +207,7 @@ p#name{
 #about-text{
     margin: 0;
     width: 55%;
-    padding: 3em;
+    padding: 1.2em 3em;
     box-sizing: border-box;
     text-align: justify;
     font-size: 0.3em;
@@ -218,6 +219,7 @@ p#name{
     font-size: 1.5vw;
     position: relative;
     background: url("../img/back-left.png") left top no-repeat, url("../img/back-right.png") right bottom no-repeat;
+    padding-bottom: 1em;
     margin: 2em 0;
 }
 
@@ -234,7 +236,11 @@ p#name{
     border-radius: 1em;
 }
 
-#agenda #info{
+#timeline{
+    position: relative;
+}
+
+#agenda .info{
     position: relative;
     padding: 1em;
     box-sizing: border-box;
@@ -245,25 +251,25 @@ p#name{
     font-family: "Space Mono", monospace;
 }
 
-#agenda #info strong{
+#agenda .info strong{
     font-size: 1.2em;
     text-transform: uppercase;
     color: #000;
 }
 
-#agenda #info.right{
+#agenda .info.right{
     background: linear-gradient(to right,#fe7f5d,#ff4284);
     border-top-left-radius: 0;
-    left: 52%;
+    left: 51.5%;
 }
 
-#agenda #info.left{
+#agenda .info.left{
     background: linear-gradient(to left,#fe7f5d,#ff4284);
     border-top-right-radius: 0;
-    left: 12%;
+    left: 12.3%;
 }
 
-#agenda #info::before{
+#agenda .info::before{
     content: "";
     position: absolute;
     width: 1.2em;
@@ -273,11 +279,11 @@ p#name{
     transform: rotate(45deg);
 }
 
-#agenda div.left::before{
+#agenda div.info.left::before{
     right: -0.6em;
 }
 
-#agenda div.right::before{
+#agenda div.info.right::before{
     left: -0.6em;
 }
 

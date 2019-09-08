@@ -30,9 +30,50 @@
 }
 
 #projects{
-    font-size: 2.4vw;
+    font-size: 2.6vw;
 }
 
 #projects p{
     padding: 2em 5em;
+}
+
+#agenda #graph{
+    margin: 0;
+    left: 15%;
+}
+
+#agenda{
+    font-size: 2.6vw;
+}
+#agenda .info{
+    margin: 1em 0;
+}
+
+#agenda .info.left{
+    background: linear-gradient(to right,#fe7f5d,#ff4284);
+    border-top-left-radius: 0;
+    border-top-right-radius: 1em;
+    left: 17.5%;
+}
+
+#agenda .info.right{
+    left: 17.5%;
+}
+
+#agenda div.info.left::before{
+    left: -0.6em;
+}
+
+#about{
+    font-size: 8.7vw;
+    margin-bottom: 0;
+}
+
+#hacking{
+    width: 100%;
+    height: 2em;
+}
+
+#about-text{
+    width: 80%;
 }

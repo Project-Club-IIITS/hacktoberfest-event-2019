@@ -17,3 +17,19 @@
 #projects p{
     padding: 2em 8.5em;
 }
+
+#agenda{
+    font-size: 2vw;
+}
+
+#agenda .info.left{
+    left: 0.5%;
+}
+
+#agenda .info.right{
+    left: 51.5%;
+}
+
+#about{
+    font-size: 5.6vw;
+}
