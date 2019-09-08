@@ -1,3 +1,9 @@
+@import url("media1.css") (max-width: 1199px) and (min-width: 992px);
+@import url("media2.css") (max-width: 991px) and (min-width: 768px);
+@import url("media3.css") (max-width: 767px) and (min-width: 600px);
+@import url("media4.css") (min-width: 401px) and (max-width: 599px);
+@import url("media5.css") (max-width: 400px);
+
 #repo-container{
     display: flex;
     flex-direction: row;
