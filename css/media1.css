@@ -1,0 +1,19 @@
+#navbar{
+    font-size: 1.6vw;
+}
+
+#banner{
+    font-size: 2.2vw;
+}
+
+#footer{
+    font-size: 1.5vw;
+}
+
+#projects{
+    font-size: 1.75vw;
+}
+
+#projects p{
+    padding: 2em 12em;
+}

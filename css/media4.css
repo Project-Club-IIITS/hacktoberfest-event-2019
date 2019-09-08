@@ -1,0 +1,44 @@
+#navbar{
+    font-size: 3.1vw;
+}
+
+#navigation{
+    float: none;
+    clear: both;
+    height: 3em;
+    margin: 0 auto;
+    padding: 0.2em 0 0.2em;
+}
+
+#banner{
+    font-size: 3.7vw;
+}
+
+#logo{
+    width: 72vw;
+    height: 45.8vw;
+}
+
+#data{
+    width: 80%;
+    margin-top: 0;
+}
+
+#footer{
+    justify-content: space-evenly;
+    font-size: 2.9vw;
+}
+
+#footer div{
+    height: 3.7em;
+    padding: 0.2em 2em 0;
+    text-align: center;
+}
+
+#projects{
+    font-size: 2.9vw;
+}
+
+#projects p{
+    padding: 2em 3em;
+}
