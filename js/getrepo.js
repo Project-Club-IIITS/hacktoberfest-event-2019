@@ -71,7 +71,7 @@ function getRepo(repo) {
     })
 }
 
-var repos_list = ["TheAlgorithms/C", "trekhleb/javascript-algorithms", "firstcontributions/first-contributions", "Project-Club-IIITS/club_portal", "adwait-thattey/Techfesia2019"];
+var repos_list = ["TheAlgorithms/C", "trekhleb/javascript-algorithms", "firstcontributions/first-contributions", "Project-Club-IIITS/club_portal", "adwait-thattey/Techfesia2019", "masterashu/TestCaseGenerator"];
 
 for (i = 0; i < repos_list.length; i++) {
     getRepo(repos_list[i]);
