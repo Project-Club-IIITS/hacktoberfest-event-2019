@@ -359,7 +359,24 @@ p#name{
 #footer div{
     text-align: right;
     height: 5em;
-    padding: 1em 2em;
+    padding: 0 0.6em 0 0;
     color: #fff;
     box-sizing: border-box;
+    margin: 0;
+}
+
+#footer div a{
+    padding: 0;
+    margin: 0;
+    height: 2.2em;
+    width: 2.2em;
+    padding: 0 0.3em;
+    display: inline-block;
+}
+
+#footer div a img{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
