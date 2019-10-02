@@ -1,9 +1,9 @@
 # hacktoberfest-event-2019
 Hacktoberfest Event to be organized in IIITS.
 
-## Git and Github Session - 5 October
+## Git and Github Session - 15 October
 
-## Hands on First Contibutions - 10 October
+## Hands on First Contibutions - 19 October
 
 #### To add 'good first repos' please append {owner}/{repo} in the __repo_list__ in [getrepo.js](https://github.com/Project-Club-IIITS/hacktoberfest-event-2019/blob/master/js/getrepo.js)
 
