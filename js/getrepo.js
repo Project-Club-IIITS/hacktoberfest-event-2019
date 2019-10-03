@@ -71,7 +71,7 @@ function getRepo (repo) {
     })
 }
 
-var repos_list = ["TheAlgorithms/C", "trekhleb/javascript-algorithms", "firstcontributions/first-contributions", "Project-Club-IIITS/club_portal", "adwait-thattey/Techfesia2019", "masterashu/TestCaseGenerator", "Nguyen17/Hacktoberfest-Sign-In", "Cutwell/Hacktoberfest-Census", "AliceWonderland/hacktoberfest", "santoshvijapure/DS_with_hacktoberfest"];
+var repos_list = ["TheAlgorithms/C", "trekhleb/javascript-algorithms", "firstcontributions/first-contributions", "Project-Club-IIITS/club_portal", "adwait-thattey/Techfesia2019", "masterashu/TestCaseGenerator", "Nguyen17/Hacktoberfest-Sign-In", "AliceWonderland/hacktoberfest", "santoshvijapure/DS_with_hacktoberfest"];
 
 for (i = 0; i < repos_list.length; i++) {
     getRepo(repos_list[i]);
