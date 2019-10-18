@@ -9,4 +9,4 @@ Hacktoberfest Event to be organized in IIITS.
 
 #### For example to add this repo as a 'good first repo' we will append 'Project-Club-IIITS/hacktoberfest-event-2019' in the array.
 
-#### Form for Registration: [HacktoberFest'19](https://forms.gle/ood9XUdHkZF5gNgaA)
+#### Form for Attendance confirmation on 19th: [HacktoberFest'19](https://forms.gle/xaoBkFqAYhs5EpvR6)
